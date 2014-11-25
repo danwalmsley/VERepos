@@ -19,5 +19,11 @@
       <Description>BitThunder Toolchain based on GCC 4.9.0 and Make for Win32</Description>
       <RepoUri>https://github.com/danwalmsley/VEBitThunderToolChain.git</RepoUri>
     </Package>
+    <Package>
+      <Name>mingw32 Toolchain</Name>
+      <Version>mingw32 Toolchain based on GCC 4.9.0 and Make for Win32</Version>
+      <Description>mingw32 Toolchain based on GCC 4.9.0 and Make for Win32</Description>
+      <RepoUri>https://github.com/danwalmsley/VEMingW32Toolchain.git</RepoUri>
+    </Package>
   </Packages>
 </Repository>
