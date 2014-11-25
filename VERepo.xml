@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Packages>
-    <PackageEntry>
+    <Package>
       <Name>Clang Toolchain</Name>
       <Version>1.0.0.0</Version>
       <Description>Installs the clang toolchain and integrates with VEStudio</Description>
       <RepoUri>https://github.com/danwalmsley/VEClangToolChain.git</RepoUri>
-      <PackageType>ToolChain</PackageType>
-    </PackageEntry>
-    <PackageEntry>
+    </Package>
+    <Package>
       <Name>GCC Toolchain</Name>
       <Version>1.0.0.0</Version>
       <Description>Installs the GCC toolchain and integrates with VEStudio</Description>
       <RepoUri>https://github.com/danwalmsley/VEGCCToolChain.git</RepoUri>
-      <PackageType>ToolChain</PackageType>
-    </PackageEntry>
-    <PackageEntry>
+    </Package>
+    <Package>
       <Name>BT Toolchain</Name>
       <Version>1.0.0.0</Version>
       <Description>Installs the BT toolchain and integrates with VEStudio</Description>
       <RepoUri>https://github.com/danwalmsley/VEbtdk.git</RepoUri>
-      <PackageType>ToolChain</PackageType>
-    </PackageEntry>
+    </Package>
   </Packages>
 </Repository>
