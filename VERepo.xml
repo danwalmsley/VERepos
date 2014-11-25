@@ -2,22 +2,22 @@
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Packages>
     <Package>
-      <Name>Clang Toolchain</Name>
-      <Version>1.0.0.0</Version>
-      <Description>Installs the clang toolchain and integrates with VEStudio</Description>
+      <Name>Clang ToolChain</Name>
+      <Version>Clang Tool chain for VEStudio</Version>
+      <Description>Clang Tool chain for VEStudio</Description>
       <RepoUri>https://github.com/danwalmsley/VEClangToolChain.git</RepoUri>
     </Package>
     <Package>
-      <Name>GCC Toolchain</Name>
-      <Version>1.0.0.0</Version>
-      <Description>Installs the GCC toolchain and integrates with VEStudio</Description>
-      <RepoUri>https://github.com/danwalmsley/VEGCCToolChain.git</RepoUri>
+      <Name>GCC ToolChain</Name>
+      <Version>GCC Toolchain for ARM Embedded Processors.</Version>
+      <Description>GCC Toolchain for ARM Embedded Processors.</Description>
+      <RepoUri>https://github.com/danwalmsley/VEClangToolChain.git</RepoUri>
     </Package>
     <Package>
       <Name>BT Toolchain</Name>
-      <Version>1.0.0.0</Version>
-      <Description>Installs the BT toolchain and integrates with VEStudio</Description>
-      <RepoUri>https://github.com/danwalmsley/VEbtdk.git</RepoUri>
+      <Version>BitThunder Toolchain based on GCC 4.9.0 and Make for Win32</Version>
+      <Description>BitThunder Toolchain based on GCC 4.9.0 and Make for Win32</Description>
+      <RepoUri>https://github.com/danwalmsley/VEBitThunderToolChain.git</RepoUri>
     </Package>
   </Packages>
 </Repository>
