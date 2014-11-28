@@ -11,7 +11,7 @@
       <Name>GCC ToolChain</Name>
       <Version>GCC Toolchain for ARM Embedded Processors.</Version>
       <Description>GCC Toolchain for ARM Embedded Processors.</Description>
-      <RepoUri>https://github.com/danwalmsley/VEClangToolChain.git</RepoUri>
+      <RepoUri>https://github.com/danwalmsley/VEGCCToolChain.git</RepoUri>
     </Package>
     <Package>
       <Name>BT Toolchain</Name>
