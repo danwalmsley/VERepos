@@ -3,26 +3,26 @@
   <Packages>
     <Package>
       <Name>Clang ToolChain</Name>
-      <Version>Clang Tool chain for VEStudio</Version>
+      <Version>3.5.0.0</Version>
       <Description>Clang Tool chain for VEStudio</Description>
       <RepoUri>https://github.com/danwalmsley/VEClangToolChain.git</RepoUri>
     </Package>
     <Package>
       <Name>GCC ToolChain</Name>
-      <Version>GCC Toolchain for ARM Embedded Processors.</Version>
+      <Version>4.9.0.0</Version>
       <Description>GCC Toolchain for ARM Embedded Processors.</Description>
       <RepoUri>https://github.com/danwalmsley/VEGCCToolChain.git</RepoUri>
     </Package>
     <Package>
       <Name>BT Toolchain</Name>
-      <Version>BitThunder Toolchain based on GCC 4.9.0 and Make for Win32</Version>
-      <Description>BitThunder Toolchain based on GCC 4.9.0 and Make for Win32</Description>
+      <Version>4.9.0.0</Version>
+      <Description>Tool chain for compiling the BitThunder RTOS for a variety of platforms.</Description>
       <RepoUri>https://github.com/danwalmsley/VEBitThunderToolChain.git</RepoUri>
     </Package>
     <Package>
-      <Name>mingw32 Toolchain</Name>
-      <Version>mingw32 Toolchain based on GCC 4.9.0 and Make for Win32</Version>
-      <Description>mingw32 Toolchain based on GCC 4.9.0 and Make for Win32</Description>
+      <Name>MinGW Toolchain</Name>
+      <Version>4.9.0.0</Version>
+      <Description>Tool chain targetting Win32.</Description>
       <RepoUri>https://github.com/danwalmsley/VEMinGWToolchain.git</RepoUri>
     </Package>
   </Packages>
