@@ -25,5 +25,10 @@
       <Description>Tool chain targetting Win32.</Description>
       <RepoUri>https://github.com/danwalmsley/VEMinGWToolchain.git</RepoUri>
     </Package>
-  </Packages>
+    <Package>
+      <Name>Open OCD Debug Adaptor</Name>
+      <Version>0.8.0</Version>
+      <Description>Open OCD Debug Adaptor</Description>
+      <RepoUri>https://github.com/danwalmsley/VEOpenOCDDebugger.git</RepoUri>
+    </Package>  </Packages>
 </Repository>
