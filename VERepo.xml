@@ -30,5 +30,10 @@
       <Version>0.8.0</Version>
       <Description>Open OCD Debug Adaptor</Description>
       <RepoUri>https://github.com/danwalmsley/VEOpenOCDDebugger.git</RepoUri>
+    </Package>    <Package>
+      <Name>JLink Debug Adaptor</Name>
+      <Version>4.9.6</Version>
+      <Description>Installs the JLink Debug interface to allow debugging via JLink.</Description>
+      <RepoUri>https://github.com/danwalmsley/VEJlinkAdaptor.git</RepoUri>
     </Package>  </Packages>
 </Repository>
