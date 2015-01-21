@@ -14,6 +14,12 @@
       <RepoUri>https://github.com/danwalmsley/VEGCCToolChain.git</RepoUri>
     </Package>
     <Package>
+      <Name>PIC32ToolChain</Name>
+      <Version>4.9.1.0</Version>
+      <Description>GCC Toolchain for PIC32 Embedded Processors.</Description>
+      <RepoUri>https://github.com/danwalmsley/VEGCCPic32Toolchain.git</RepoUri>
+    </Package>
+    <Package>
       <Name>BT Toolchain</Name>
       <Version>4.9.0.0</Version>
       <Description>Tool chain for compiling the BitThunder RTOS for a variety of platforms.</Description>
