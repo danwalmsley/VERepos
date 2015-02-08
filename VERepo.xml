@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Packages>
-    <Package>
+    <ToolChainPackage>
       <Name>Clang ToolChain</Name>
       <Version>3.5.0.0</Version>
       <Description>Clang Tool chain for VEStudio</Description>
       <RepoUri>https://github.com/danwalmsley/VEClangToolChain.git</RepoUri>
-    </Package>
+    </ToolChainPackage>
     <Package>
       <Name>GCC ToolChain</Name>
       <Version>4.9.0.0</Version>
