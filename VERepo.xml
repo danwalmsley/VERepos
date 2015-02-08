@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Packages>
-    <ToolChainPackage>
+    <Package xsi:type="ClangToolChainPackage">
       <Name>Clang ToolChain</Name>
       <Version>3.5.0.0</Version>
       <Description>Clang Tool chain for VEStudio</Description>
       <RepoUri>https://github.com/danwalmsley/VEClangToolChain.git</RepoUri>
-    </ToolChainPackage>
-    <Package>
+    </Package>
+    <Package xsi:type="GccToolChainPackage">
       <Name>GCC ToolChain</Name>
       <Version>4.9.0.0</Version>
       <Description>GCC Toolchain for ARM Embedded Processors.</Description>
       <RepoUri>https://github.com/danwalmsley/VEGCCToolChain.git</RepoUri>
     </Package>
-    <Package>
+    <Package xsi:type="PIC32ToolChainPackage">
       <Name>PIC32ToolChain</Name>
       <Version>4.9.1.0</Version>
       <Description>GCC Toolchain for PIC32 Embedded Processors.</Description>
       <RepoUri>https://github.com/danwalmsley/VEGCCPic32Toolchain.git</RepoUri>
     </Package>
-    <Package>
+    <Package xsi:type="BitThunderToolChainPackage">
       <Name>BT Toolchain</Name>
       <Version>4.9.0.0</Version>
       <Description>Tool chain for compiling the BitThunder RTOS for a variety of platforms.</Description>
       <RepoUri>https://github.com/danwalmsley/VEBitThunderToolChain.git</RepoUri>
     </Package>
-    <Package>
+    <Package xsi:type="MinGWToolChainPackage">
       <Name>MinGW Toolchain</Name>
       <Version>4.9.0.0</Version>
       <Description>Tool chain targetting Win32.</Description>
       <RepoUri>https://github.com/danwalmsley/VEMinGWToolchain.git</RepoUri>
     </Package>
-    <Package>
+    <Package xsi:type="OpenOCDDebugAdaptorPackage">
       <Name>OpenOCD Debug Adaptor</Name>
       <Version>0.8.0</Version>
       <Description>Open OCD Debug Adaptor</Description>
       <RepoUri>https://github.com/danwalmsley/VEOpenOCDDebugger.git</RepoUri>
-    </Package>    <Package>
+    </Package>    
+    <Package xsi:type="JLinkDebugAdaptorPackage">
       <Name>JLink Debug Adaptor</Name>
       <Version>4.9.6</Version>
       <Description>Installs the JLink Debug interface to allow debugging via JLink.</Description>
       <RepoUri>https://github.com/danwalmsley/VEJlinkAdaptor.git</RepoUri>
-    </Package>  </Packages>
+    </Package>  
+  </Packages>
 </Repository>
